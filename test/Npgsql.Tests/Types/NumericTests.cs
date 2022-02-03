@@ -81,6 +81,8 @@ public class NumericTests : MultiplexingTestBase
         new object[] { "1234567844445555.000000000", 1234567844445555.000000000M },
         new object[] { "11112222000000000000", 11112222000000000000M },
         new object[] { "0::numeric", 0M },
+
+        new object[] { "95909.8281939472410410151370800", 95909.82819394724104101513708M },
     };
 
     [Test]
